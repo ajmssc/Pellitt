@@ -52,7 +52,7 @@ return array(
 	|
 	*/
 
-	//'storage' => __DIR__.'/../app/storage',
-	'storage' => '/data/storage',
+	'storage' => __DIR__.'/../app/storage',
+	//'storage' => '/data/storage',
 
 );
