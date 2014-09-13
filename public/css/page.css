@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoTTF/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoTTF/Roboto-Bold.ttf);
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoTTF/Roboto-MediumItalic.ttf);
+    font-style:italic;
+}
+
+.clearfix:after
+{
+	content: ".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body, html {
+    height:100%;
+    margin:0px;
+    font-family: Roboto, source-sans-pro, sans-serif;
+    font-size: 18px;
+    background:#DDD;
+    overflow:auto;
+}
+
+h1 {
+    font-weight:normal;
+}
+
+div.column-desktop div.form-title {
+    width:200px;
+    height:30px;
+    font-weight:bold;
+    float:left;
+    padding:5px 10px;
+    font-size:14px;
+    line-height:30px;
+}
+
+div.column-desktop div.form-input {
+    width:560px;
+    height:30px;
+    font-weight:bold;
+    float:left;
+    padding:5px 10px;
+}
+
+input {
+    width:500px;
+    height:30px;
+    margin:0px;
+    padding:0px 11px;
+    border:0px;
+    font-size:18px;
+    background:none;
+    outline-color:#72c140;
+}
+
+input:hover {
+    outline-style:solid;
+    outline-width:1px;
+}
+
+hr {
+    width:100%;
+    margin:5px 0px;
+    border-style: solid;
+    border:0;
+    float:left;
+    margin:20px 0px;
+    height:1px;
+    background:linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+}
+
+select {
+    height:30px;
+    font-size:18px;
+    border:0px;
+    outline-color:#72c140;
+    background:none;
+}
+
+button {
+    width:70px;
+    height:30px;
+    margin:10px 0px 0px 10px;
+    border-radius:4px;
+    font-size:13px;
+    border:1px solid #999;
+    background:linear-gradient(to bottom, #EEE,#EEE,#CCC);
+    outline:none;
+}
+
+button:hover {
+    box-shadow:0px 0px 3px #999;
+}
+
+button:active {
+    box-shadow:inset 0px 0px 5px #999;
+}
+
+button.save {
+    float:right;
+    background:linear-gradient(to bottom,#0fb50f,#169016);
+    color:#FFF;
+}
+
+button.save:active {
+    box-shadow:inset 0px 0px 15px #0d5d0d;
+}
+
+button.cancel {
+    float:right;
+}

@@ -1,0 +1,112 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-color:#aca794;
+    vertical-align:middle;
+}
+
+div#background {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image:url(../images/home/video-game-console-minimalism-free-desktop-download.jpg);
+    background-position:bottom right;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+div#loginContainer {
+    height:100%;
+    width:600px;
+    height:400px;
+    position:absolute;
+    z-index:10;
+}
+
+div#loginContainer div.logo {
+    font-size:100px;
+    width:200px;
+    height:100px;
+    display:block;
+    font-family: doppio-one;
+    color:#666666;
+    float:left;
+    margin:50px 0px 0px 50px;
+}
+
+div#loginContainer div#loginBox {
+    width:400px;
+    height:100px;
+    display:block;
+    float:left;
+    margin:10px 0px 0px 50px;
+
+    position:absolute;
+    top:150px;
+    z-index:10;
+}
+
+div#loginForm {
+    width:298px;
+    height:98px;
+    float:left;
+    background:rgba(255,255,255,0.6);
+    border-radius:10px 0px 0px 10px;
+    border:1px solid #847f68;
+    border-right:0px;
+    box-shadow:inset 0px 0px 10px #666;
+}
+
+div#loginContainer div#loginBox input.loginInput {
+    font-family: verdana;
+    font-size:22px;
+    z-index:10;
+    width:300px;
+    height:50px;
+    padding:0px;
+    margin-left:10px;
+    border:0px;
+    background:none;
+    outline:none;
+}
+
+button#loginButton {
+    width:100px;
+    height:100px;
+    float:left;
+    margin:0px;
+    border-radius:0px 10px 10px 0px;
+    border:0px solid #000;
+    background-color:#64bc64;
+    border:1px solid #3f8e3f;
+    font-size:22px;
+    color:#254825;
+    outline:none;
+}
+
+button#loginButton:hover div {
+    height:30px;
+}
+
+button#loginButton:hover {
+    background:linear-gradient(#79ea79,#64bc64);
+}
+
+button#loginButton:active {
+    box-shadow:inset 0px 0px 30px #000;
+    background:linear-gradient(#64bc64,#79ea79);
+}
+
+button#loginButton:active div {
+    padding-top:5px;
+}
+
+div#loginPrompt {
+    font-family:verdana;
+    line-height:50px;
+    font-size:22px;
+    z-index:0;
+    position:absolute;
+    top:160px;
+    left:60px;
+}

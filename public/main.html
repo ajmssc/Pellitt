@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="" >
+<head>
+    <title>Pellit</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/menus.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script src="http://use.edgefonts.net/source-sans-pro.js"></script>
+    <script type='text/javascript' src='js/tween.js'></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menus.js"></script>
+</head>
+<body onload="">
+    <script type="text/javascript" src="js/move.js"></script>
+    <div id="consoleButton">
+        <img src="images/console-menu.png" onclick="openConsole()"/>
+    </div>
+    <div class="header">
+        <div id="headerButtons">
+            <img src="images/header-people.png" />
+            <img id="sidebarButtonMessages" src="images/header-messages.png" onclick="openSidebar('Messages')"/>
+            <img id="sidebarButtonEvents" src="images/header-events.png" onclick="openSidebar('Events')"/>
+            <img src="images/header-questions.png" />
+            <img src="images/header-notification.png" />
+            <img src="images/header-search.png" />
+        </div>
+        <div class="user">
+            <img id="headerUserImg" src="images/user-jeanmarc.jpg" class="userIcon"/>
+            <span id="headerUserName">Jean-Marc Soumet</span>
+            <img id="settingsButton" src="images/header-settings.png" />
+        </div>
+        <div class="logo">PELLIT</div>
+    </div>
+    
+    <div id="consoleContainer">
+        
+    </div>
+    
+    <div id="mainContent">
+        <iframe id="mainContentFrame" src="profile.html"></iframe>
+    </div>
+
+    <div id="menuMaster">
+        <div id="settingsMenuContainer">
+            <div class="menuItem" id="accountInfoMenu">Account Info</div>
+            <hr class="menuDivider" />
+            <div class="menuItem" id="accountInfoSignout">Sign Out</div>
+        </div>
+    </div>
+    <div id="menuShadow"></div><div id="dropdownArrow"></div>
+</body>
+</html>

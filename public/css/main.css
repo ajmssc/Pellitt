@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoTTF/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoTTF/Roboto-Bold.ttf);
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoTTF/Roboto-MediumItalic.ttf);
+    font-style:italic;
+}
+
+body, html {
+    height:100%;
+    margin:0px;
+    font-family: Roboto, source-sans-pro, sans-serif;
+    font-size: 18px;
+    background:#DDD;
+    overflow:none;
+}
+
+div#consoleButton {
+    position:fixed;
+    width:50px;
+    height:50px;
+    z-index:10;
+    cursor:pointer;
+}
+
+div#consoleButton img {
+    width:30px;
+    padding:10px;
+    opacity:0.3;
+}
+
+div#consoleButton img:hover {
+    opacity:1.0;
+}
+
+div#consoleContainer {
+    position:fixed;
+    width:250px;
+    height:100%;
+    background-image:url('../images/pattern-grid.jpg');
+    border-right:2px solid #999;
+    z-index:0;
+}
+
+.header {
+    height:40px;
+    position:fixed;
+    padding:10px 0px 0px 0px;
+    margin:0px;
+    background:rgba(244,244,244,0.95);
+    vertical-align: top;
+    border-bottom:1px solid #CCCCCC;
+    z-index:10;
+    box-shadow:0px 0px 50px #000;
+    border-radius:10px;
+    top:-10px;
+    right:-10px;
+}
+
+.header img {
+    margin-top:30px;
+    width:20px;
+    height:20px;
+    display:inline-block;
+    float:left;
+    margin:8px 1px 0px 1px;
+    padding:2px;
+    cursor:pointer;
+}
+
+.header .user{
+    font-size:12px;
+    float:right;
+    line-height:20px;
+    margin-top:10px;
+    margin-right:10px;
+    border-right:1px solid #000;
+    padding-right:5px;
+    cursor:pointer;
+}
+
+.header .user img.userIcon {
+    width:20px;
+    height:20px;
+    border:1px solid #999999;
+    margin-top:0px;
+    margin-right:10px;
+    padding:0px;
+}
+
+.header div#headerButtons {
+    float:right;
+    margin-right:20px;
+}
+
+.header img#settingsButton {
+    width:20px;
+    height:20px;
+    margin:-1px 0px 0px 5px;
+    display:inline-block;
+    float:right;
+}
+
+.logo {
+    font-size:20px;
+    width:100px;
+    height:30px;
+    display:inline-block;
+    font-family: doppio-one;
+    color:#666666;
+    text-align:center;
+    float:right;
+    margin-top:9px;
+}
+
+div#mainContent {
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:#EEE;
+    white-space: normal;
+    overflow:hidden;
+    box-shadow:0px 0px 50px #000;
+    left:0px;
+    z-index:0;
+}
+
+iframe#mainContentFrame {
+    width:100%;
+    height:100%;
+    border:0px;
+}
